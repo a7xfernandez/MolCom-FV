@@ -1,7 +1,8 @@
 ﻿Public Class HomeController
-    Inherits System.Web.Mvc.Controller
+    Inherits AppController
 
     Function Index() As ActionResult
+
         Return View()
     End Function
 
