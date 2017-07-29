@@ -238,6 +238,40 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\animate.min.css" />
+    <Content Include="Assets\css\bootstrap.min.css" />
+    <Content Include="Assets\css\demo.css" />
+    <Content Include="Assets\css\light-bootstrap-dashboard.css" />
+    <Content Include="Assets\css\pe-icon-7-stroke.css" />
+    <Content Include="Assets\fonts\Pe-icon-7-stroke.svg" />
+    <Content Include="Assets\img\default-avatar.png" />
+    <Content Include="Assets\img\faces\face-0.jpg" />
+    <Content Include="Assets\img\faces\face-1.jpg" />
+    <Content Include="Assets\img\faces\face-2.jpg" />
+    <Content Include="Assets\img\faces\face-3.jpg" />
+    <Content Include="Assets\img\faces\face-4.jpg" />
+    <Content Include="Assets\img\faces\face-5.jpg" />
+    <Content Include="Assets\img\faces\face-6.jpg" />
+    <Content Include="Assets\img\faces\face-7.jpg" />
+    <Content Include="Assets\img\faces\tim_vector.jpe" />
+    <Content Include="Assets\img\favicon.ico" />
+    <Content Include="Assets\img\loading-bubbles.svg" />
+    <Content Include="Assets\img\mask.png" />
+    <Content Include="Assets\img\new_logo.png" />
+    <Content Include="Assets\img\sidebar-1.jpg" />
+    <Content Include="Assets\img\sidebar-2.jpg" />
+    <Content Include="Assets\img\sidebar-3.jpg" />
+    <Content Include="Assets\img\sidebar-4.jpg" />
+    <Content Include="Assets\img\sidebar-5.jpg" />
+    <Content Include="Assets\img\tim_80x80.png" />
+    <Content Include="Assets\js\bootstrap-checkbox-radio-switch.js" />
+    <Content Include="Assets\js\bootstrap-notify.js" />
+    <Content Include="Assets\js\bootstrap-select.js" />
+    <Content Include="Assets\js\bootstrap.min.js" />
+    <Content Include="Assets\js\chartist.min.js" />
+    <Content Include="Assets\js\demo.js" />
+    <Content Include="Assets\js\jquery-1.10.2.js" />
+    <Content Include="Assets\js\light-bootstrap-dashboard.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -247,6 +281,60 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\css\.DS_Store" />
+    <Content Include="Assets\fonts\.DS_Store" />
+    <Content Include="Assets\fonts\Pe-icon-7-stroke.eot" />
+    <Content Include="Assets\fonts\Pe-icon-7-stroke.ttf" />
+    <Content Include="Assets\fonts\Pe-icon-7-stroke.woff" />
+    <Content Include="Assets\img\.DS_Store" />
+    <Content Include="Assets\img\faces\.DS_Store" />
+    <Content Include="Assets\sass\.DS_Store" />
+    <Content Include="Assets\sass\lbd\.DS_Store" />
+    <Content Include="Assets\sass\lbd\mixins\_buttons.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_cards.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_chartist.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_icons.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_inputs.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_labels.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_morphing-buttons.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_navbars.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_social-buttons.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_tabs.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_transparency.scss" />
+    <Content Include="Assets\sass\lbd\mixins\_vendor-prefixes.scss" />
+    <Content Include="Assets\sass\lbd\_alerts.scss" />
+    <Content Include="Assets\sass\lbd\_buttons.scss" />
+    <Content Include="Assets\sass\lbd\_cards.scss" />
+    <Content Include="Assets\sass\lbd\_carousel.scss" />
+    <Content Include="Assets\sass\lbd\_chartist.scss" />
+    <Content Include="Assets\sass\lbd\_checkbox-radio-switch.scss" />
+    <Content Include="Assets\sass\lbd\_collapse.scss" />
+    <Content Include="Assets\sass\lbd\_datepicker.scss" />
+    <Content Include="Assets\sass\lbd\_dropdown.scss" />
+    <Content Include="Assets\sass\lbd\_flexisel.scss" />
+    <Content Include="Assets\sass\lbd\_footers.scss" />
+    <Content Include="Assets\sass\lbd\_icons.scss" />
+    <Content Include="Assets\sass\lbd\_inputs.scss" />
+    <Content Include="Assets\sass\lbd\_labels.scss" />
+    <Content Include="Assets\sass\lbd\_media.scss" />
+    <Content Include="Assets\sass\lbd\_misc.scss" />
+    <Content Include="Assets\sass\lbd\_mixins.scss" />
+    <Content Include="Assets\sass\lbd\_modal.scss" />
+    <Content Include="Assets\sass\lbd\_morphing-buttons.scss" />
+    <Content Include="Assets\sass\lbd\_navbars.scss" />
+    <Content Include="Assets\sass\lbd\_progress-bars.scss" />
+    <Content Include="Assets\sass\lbd\_responsive.scss" />
+    <Content Include="Assets\sass\lbd\_sections.scss" />
+    <Content Include="Assets\sass\lbd\_sidebar-and-main-panel.scss" />
+    <Content Include="Assets\sass\lbd\_sliders.scss" />
+    <Content Include="Assets\sass\lbd\_social-buttons.scss" />
+    <Content Include="Assets\sass\lbd\_tables.scss" />
+    <Content Include="Assets\sass\lbd\_tabs-navs-pagination.scss" />
+    <Content Include="Assets\sass\lbd\_tags.scss" />
+    <Content Include="Assets\sass\lbd\_tooltips-and-popovers.scss" />
+    <Content Include="Assets\sass\lbd\_typography.scss" />
+    <Content Include="Assets\sass\lbd\_variables.scss" />
+    <Content Include="Assets\sass\light-bootstrap-dashboard.scss" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -263,6 +351,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Auth\LogIn.vbhtml" />
     <Content Include="Views\Auth\Register.vbhtml" />
+    <Content Include="Views\Shared\_LayoutPublico.vbhtml" />
+    <Content Include="Views\Shared\_LayoutPublico2.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

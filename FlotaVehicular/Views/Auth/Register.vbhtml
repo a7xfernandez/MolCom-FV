@@ -1,18 +1,25 @@
 ﻿@Code
-    ViewData("Title") = "Register"
-    Layout = "~/Views/Shared/_Layout.vbhtml"
+    ViewData("Title") = "Registro"
+    Layout = "~/Views/Shared/_LayoutPublico.vbhtml"
 End Code
 
-<h2>Register</h2>
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <div class="card">
+            <div class="header">
+                <h4 class="title">Registro</h4>
+            </div>
+            <div class="content">
+                @Html.ValidationSummary(True)
 
+                @Using (Html.BeginForm())
 
-@Html.ValidationSummary(True)
-
-@Using (Html.BeginForm())
-
-    @Html.EditorForModel()
-    @<p>
-        <button type = "submit" > Register</button>
-         <a href="@Url.Action("login", "auth")">Inciar Sesión</a>
-    </p>
-End Using
+                    @Html.EditorForModel()
+                    @<p>
+                        <button class="btn btn-primary" type="submit"> Registrarse</button>
+                    </p>
+                End Using
+            </div>
+        </div>
+    </div>
+</div>
