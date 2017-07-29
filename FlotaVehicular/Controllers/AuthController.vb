@@ -74,7 +74,9 @@ Namespace Controllers
             End If
 
             Dim user = New AppUser() With {
-                .UserName = model.Email
+                .UserName = model.Email,
+                .Nombre = model.Nombre,
+                .Apellido = model.Apellido
             }
 
             Dim result = Await userManager.CreateAsync(user, model.Password)
@@ -107,6 +109,10 @@ Namespace Controllers
         Private Async Function SignIn(user As AppUser) As Task
             Dim identity = Await userManager.CreateIdentityAsync(
                 user, DefaultAuthenticationTypes.ApplicationCookie)
+
+            identity.AddClaim(New Claim("NombreCompleto", user.NombreCompleto))
+            identity.AddClaim(New Claim("Nombre", user.Nombre))
+            identity.AddClaim(New Claim("Apellido", user.Apellido))
 
             GetAuthenticationManager().SignIn(identity)
         End Function
