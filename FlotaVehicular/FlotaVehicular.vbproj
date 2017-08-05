@@ -196,9 +196,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDbContext.vb" />
-    <Compile Include="AppUser.vb" />
-    <Compile Include="AppUserClaimsIdentityFactory.vb" />
-    <Compile Include="AppUserPrincipal.vb" />
+    <Compile Include="Security\AppUser.vb" />
+    <Compile Include="Security\AppUserClaimsIdentityFactory.vb" />
+    <Compile Include="Security\AppUserPrincipal.vb" />
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
