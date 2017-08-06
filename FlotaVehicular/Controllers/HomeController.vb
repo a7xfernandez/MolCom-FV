@@ -12,8 +12,9 @@
         Return View()
     End Function
 
+    <Authorize(Roles:="Admin")>
     Function Contact() As ActionResult
-        ViewData("Message") = "Your contact page."
+        ViewData("Message") = "Your contact page. Only Admin"
 
         Return View()
     End Function

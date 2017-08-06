@@ -5,4 +5,8 @@ Public Class AppDbContext
     Public Sub New()
         MyBase.New("DefaultConnection")
     End Sub
+
+    Public Shared Function Create() As AppDbContext
+        Return New AppDbContext()
+    End Function
 End Class

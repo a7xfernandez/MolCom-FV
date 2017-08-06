@@ -86,3 +86,5 @@ C:\Projects\jorge\MolCom-FV\FlotaVehicular\bin\Microsoft.AspNet.Identity.EntityF
 C:\Projects\jorge\MolCom-FV\FlotaVehicular\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Projects\jorge\MolCom-FV\FlotaVehicular\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Projects\jorge\MolCom-FV\FlotaVehicular\obj\Debug\FlotaVehicular.vbprojResolveAssemblyReference.cache
+C:\Projects\jorge\MolCom-FV\FlotaVehicular\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\jorge\MolCom-FV\FlotaVehicular\bin\Microsoft.Owin.Security.OAuth.xml
